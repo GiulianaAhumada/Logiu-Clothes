@@ -1,0 +1,538 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body
+{
+  background-color: white;
+  
+}
+
+.logo>img
+{
+    height: 15%;
+    width: 9.5%;
+    padding: 10px;
+    margin-left:60px;
+ 
+}
+h1 {
+    font-family: Source Sans Pro;
+    font-size: 50px;
+}
+.menu
+{
+    background-color: rgb(242, 212, 157);
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: blanchedalmond;
+    font-family: Source Sans Pro;
+}
+.items
+{
+    display: flex;
+    list-style: none;
+}
+
+.items>li>a
+{
+    margin: 0 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;/*para que ocupen todo el espacio disponible en los li */
+    text-transform: uppercase;
+    color: white;
+}
+.items>li:hover
+{
+    transition: 0.15s;
+	-webkit-transition: 0.15s;
+	border-bottom: 4px solid #fff;
+}
+.inicio { /* Div para ¿Quienes somos? */ 
+    position: relative;
+    top: 20px;
+    margin: auto;
+    display: block;
+    width: 83.8%;
+}
+.imagen
+{
+    margin-top: 100px;
+}
+.img1 
+{
+    position: relative;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+}
+hr {
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+}
+.titulo {
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+}
+.titulo2
+{
+    position: relative;
+    justify-content: center;  
+}
+.texto {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.maps
+{
+   
+    width:100%;
+    height: 300px;
+	margin:0px auto;
+	text-align:center;
+
+}
+.maps img
+{   
+    
+    width: 600px;
+    height: 300px;
+}
+#redes {
+    margin-top: 50px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+.logos img {
+    padding: 15px;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    top: 20px;
+}
+footer {
+    background: black;
+    color: white;
+    font-family: Source Sans Pro;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 125px;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 175px;
+}
+.logosp {
+    position: relative;
+    top: 10px;
+}
+.logosp img {
+    width: 200px;
+    height: 55px;
+}
+.titulo2 {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.ropa{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.ropa p
+{
+    font-size: 20px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+}
+.remera {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(216, 165, 69);
+    background:rgb(242, 212, 157);
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.remera img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -8px;
+}
+.remera:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 35px;
+}
+
+
+.titulo3 {
+    position: relative;
+    top: 175px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.titulo4 {
+    position: relative;
+    top: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.campera {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(216, 165, 69);
+    background:rgb(242, 212, 157);
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.campera img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -15px;
+    
+}
+
+
+.campera:hover
+{	
+    transition: 0.80s;
+	-webkit-transition: 0.80s;
+	position: relative;
+	top: 100px;
+}
+
+footer {
+    background: rgb(46, 37, 19);
+    color: white;
+    font-family: Source Sans Pro;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 125px;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 175px;
+}
+#redes2 {
+    background: #f6f6f6;
+    margin-top: 395px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+.titulo>h1
+{
+    font-size: 32px;
+    position: relative;
+    top: -40px;
+}
+
+  
+  .container{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+    position: relative;
+   
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  
+  } 
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+ 
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      ;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: yellowgreen;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .puntos{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .puntos li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .puntos li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  @media (max-width:320px)
+  {
+    .container{
+    margin:0 auto;
+    text-align: center;
+    background-color: white;
+    width: 320px;
+    height: 200px;
+    padding: 30px;
+    position: relative;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin: 0 auto;
+      text-align: center;
+  
+  } 
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+ 
+  }
+  
+  ul.slider li {
+      position: absolute;
+      vertical-align:middle;
+      margin: 0 auto;
+    text-align: center;
+      opacity: 0;
+      
+      transition: opacity .5s;
+      
+  }
+  
+  ul.slider li img{
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    vertical-align:middle;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    right: 270px;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .puntos{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .puntos li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .puntos li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+    position: relative;
+    top: -200px;
+  }
+    h1
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+      .texto
+      {
+        font-size: 20px;
+        top: 30px;
+      }
+      
+      .maps
+      {
+         
+          width:100%;
+          height: 100px;
+          margin:0px auto;
+          text-align:center;
+          position: relative;
+          top:10px;
+      
+      }
+      .maps img
+      {   
+          
+          width: 250px;
+          height: 100px;
+      }
+
+
+.logos img {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+}
+.ropa{
+    position: relative;
+    top: 50px;
+    left: 35px;/*probé con margin:auto; pero no me lo centralizó*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+   
+}
+.remera
+{
+    margin: 0 10px 10px 0;
+}
+.pantalon
+{
+    margin: 0 10px 10px 0;
+}
+.campera
+{
+    margin: 0 10px 10px 0;
+}
+.titulo>h1
+{
+    font-size: 20px;
+    position: relative;
+   margin: 10px;
+}
+
+footer {
+    background: rgb(46, 37, 19);
+    color: white;
+    font-family: Source Sans Pro;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-decoration-color: white;
+   
+}
+.footer1
+{
+    position: relative;
+    right: 130px;
+    text-align: center;
+
+}
+.footer2
+{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    right: 100px;
+    text-align: center;
+    padding: 20px;
+    bottom: 20px;
+ 
+}
+
+  }

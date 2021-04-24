@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="estilo4.css">
+		<title>Formulario de registro - Mi web</title>
+	</head>
+	<body>
+        <nav class="menu">
+            <label class="logo"> <img src="img/logo.png"></label>
+            <ul class="items">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ropa.html">Ropa</a></li>
+            </ul>
+        </nav>
+		<h1>FORMULARIO DE REGISTRO</h1>
+        <p style="color: black; display: flex; justify-content: center; position: relative; top: -15px"> Antes de realizar la compra, es necesario que te registres.</p>
+		<form method="get" action="">
+			
+			<p>
+				<label for="Nombre">Nombre: </label>
+				<input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre" size="20" maxlenght="25" required/><br><br>
+			</p>
+			<p>
+				<label for="Apellido">Apellido: </label>
+				<input type="text" name="Apellido" id="apellido" placeholder="Escribe tu apellido" size="20" maxlenght="25" required/><br><br>
+			</p>
+			<p>
+				<label for="sexo">Sexo: </label>			
+				<input type="radio" name="sexo" id="sexh" value="h" required><label for="sexh"> Hombre </label>
+  				<input type="radio" name="sexo" id="sexm" value="m" required><label for="sexm"> Mujer </label>
+                <input type="radio" name="sexo" id="sexm" value="m" required><label for="sexm"> Otro </label> <br>
+  				<br>
+
+			</p>
+			<p>
+				<label for="Correo">Correo: </label>
+				<input type="email" name="Correo" id="correo" size="25" maxlenght="100" required/>
+			</p>
+			<br>
+			<p>
+				<label for="descipcion">Consulta:</label><br>
+				<textarea name="descripcion" id="descripcion" rows="7" cols="42"></textarea><br>
+			</p>
+			
+			<p>
+			<input type="checkbox" name="casilla"><label for="casilla">Deseo recibir información sobre novedades y ofertas</label>
+			<br><br>
+			<input type="checkbox" name="casilla2" checked required><label for="casilla2">Declaro haber leido y aceptado las condiciones generales de la página web y la normativa sobre protección de datos</label>
+			<br><br>
+	 	    </p>
+			<p>
+				<input type="submit" value="Enviar" name="enviar">
+				<input type="reset" value="Borrar">
+			</p>
+		</form>
+	<section>
+		<article>
+            <div class="titulo">
+            <h1 style="font-size: 32px; position: relative; top: -60px">SEGUINOS EN NUESTRAS REDES</h1>
+            </div>
+            <div id="redes">
+                <A name="redes">
+                <div class="logos">
+                    <a href="#"><img src="img/twitter.png" title="Twitter"></a>
+                    <a href="#"><img src="img/instagram.png" title="Instagram"></a>
+                    <a href="#"><img src="img/facebook.png" title="Facebook"></a>
+                </div>
+            </div>
+        </article>
+
+    </section>
+    <footer>
+        <div class="footer1">
+            <p>Alumna: Giuliana Ahumada</p>
+            <br>
+          
+             <p>Contactanos:
+            <br>
+            <img src="img/w.png" width="15px" height="15px" title="Whatsapp">
+            +541139827432 - +541123439723
+          
+            <br>                
+        </div>
+         <div class="footer2">
+            <p>Horarios de atención</p>
+            <br>
+            <p>Lun a Vie: 11:00 am hasta 19:00 pm</p>
+            <p>Sab y Dom: 13:00 pm hasta 18:00 pm</p>
+        </div>
+
+        </div>          
+    </footer>
+	</body>
+	</html>
